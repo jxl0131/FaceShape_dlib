@@ -1,3 +1,10 @@
+# UPDATE
+主要改动：
+- 做了一些修改以直接输出脸型估计结果
+- 排除了一个index越界的bug
+测试结果：
+脸型分类标准和主流的五分类不一致，且结果不太准确，但是可以作为一个参考。
+
 * FaceShape *
 
 The project determines the face shape. (oval/rectangular/oblong/square/round/diamond/triangle )
